@@ -1,5 +1,8 @@
 import sqlite3
-connection = sqlite3.connect("school.db")
+print("SQLite3 imported!")
+connection = sqlite3.connect("library.db")
 print("Database connected!")
 connection.close()
 print("Database closed!")
+
+# If the database file is deleted, the system will create it again.
