@@ -2,7 +2,7 @@
 
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: 6705cb7 - First set of work in Lesson 1. The base code outlined in `lesson-01-setup-and-first-connection.md`, fully functional.
-- Commit 2 hash + message: Extended on the original code with the 'Stretch Challenge'. Ensured all exit questions were answered.
+- Commit 2 hash + message: f77447b - Extended on the original code with the 'Stretch Challenge'. Ensured all exit questions were answered.
 - Optional Commit 3 hash + message:
 
 ## Run evidence

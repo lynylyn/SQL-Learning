@@ -1,16 +1,17 @@
 # Lesson 02 Evidence Pro-Forma
 
 ## Commit evidence (minimum 2)
-- Commit 1 hash + message:
+- Commit 1 hash + message: First set of work in Lesson 2. The base code outlined in `lesson-02-create-tables-and-add-data.md`, fully functional.
 - Commit 2 hash + message:
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run:
+- Command run: `python SQLOnboarding-main/examples/lesson2_create_table.py`
 - Terminal output pasted below:
+    None, but ran without error
 
 ## SQL/Python changes I made
-- 
+-
 
 ## Error and fix
 - Error I hit:
