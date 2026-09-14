@@ -2,7 +2,7 @@
 
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: First set of work in Lesson 2. The base code outlined in `lesson-02-create-tables-and-add-data.md`, fully functional.
-- Commit 2 hash + message:
+- Commit 2 hash + message: Built on top of the base work in Lesson 2, enhancing my understanding by answering questions and renaming some of the data.
 - Optional Commit 3 hash + message:
 
 ## Run evidence

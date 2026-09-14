@@ -11,10 +11,14 @@ CREATE TABLE IF NOT EXISTS students (
 )
 """)
 
+#IF NOT EXISTS ensures that a table has been created and the system isn't attempting to feed data into an empty database.
+
 cursor.execute("DELETE FROM students")
 
-cursor.execute("INSERT INTO students (name, year_group) VALUES (?, ?)", ("Ava", 10))
+cursor.execute("INSERT INTO students (name, year_group) VALUES (?, ?)", ("Terence", 10))
 cursor.execute("INSERT INTO students (name, year_group) VALUES (?, ?)", ("Leo", 11))
 
 connection.commit()
 connection.close()
+
+#The first row is the primary key.
