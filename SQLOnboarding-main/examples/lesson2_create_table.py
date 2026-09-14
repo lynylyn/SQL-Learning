@@ -7,7 +7,8 @@ cursor.execute("""
 CREATE TABLE IF NOT EXISTS students (
     id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
-    year_group INTEGER
+    year_group INTEGER,
+    favourite_subject TEXT NOT NULL
 )
 """)
 
@@ -15,8 +16,9 @@ CREATE TABLE IF NOT EXISTS students (
 
 cursor.execute("DELETE FROM students")
 
-cursor.execute("INSERT INTO students (name, year_group) VALUES (?, ?)", ("Terence", 10))
-cursor.execute("INSERT INTO students (name, year_group) VALUES (?, ?)", ("Leo", 11))
+cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Terence", 10, "Software Engineering"))
+cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Leo", 11, "PDHPE"))
+cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Awdsa", 7, "Science"))
 
 connection.commit()
 connection.close()
