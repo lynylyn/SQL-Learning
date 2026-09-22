@@ -3,7 +3,7 @@
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: 2d1806d - First set of work in Lesson 2. The base code outlined in `lesson-02-create-tables-and-add-data.md`, fully functional.
 - Commit 2 hash + message: 04f0106 - Built on top of the base work in Lesson 2, enhancing my understanding by answering questions and renaming some of the data.
-- Optional Commit 3 hash + message: Did the 'Stretch Challenge' and completed all questions.
+- Optional Commit 3 hash + message: 8c27d9a - Did the 'Stretch Challenge' and completed all questions.
 
 ## Run evidence
 - Command run: `python SQLOnboarding-main/examples/lesson2_create_table.py`

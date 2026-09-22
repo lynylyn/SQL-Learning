@@ -1,12 +1,12 @@
 # Lesson 03 Evidence Pro-Forma
 
 ## Commit evidence (minimum 2)
-- Commit 1 hash + message:
+- Commit 1 hash + message: First set of work in Lesson 3. The base code outlined in `lesson-03-query-data-with-select.md`, fully functional.
 - Commit 2 hash + message:
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run:
+- Command run: `python SQLOnboarding-main/examples/lesson3_select.py`
 - Terminal output pasted below:
 
 ## Typed-work confirmation
