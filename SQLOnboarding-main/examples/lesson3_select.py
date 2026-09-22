@@ -3,11 +3,11 @@ import sqlite3
 connection = sqlite3.connect("library.db")
 cursor = connection.cursor()
 
-cursor.execute("SELECT name FROM students")
+cursor.execute("SELECT name, year_group, favourite_subject FROM students")
 rows = cursor.fetchall()
 
-for row in rows:
-    print(row)
+for name, year_group, favourite_subject in rows:
+    print(f"{name} is in year {year_group}, and their favourite subject is {favourite_subject}.")
 
 connection.close()
 

@@ -19,6 +19,7 @@ cursor.execute("DELETE FROM students")
 cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Terence", 10, "Software Engineering"))
 cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Leo", 11, "PDHPE"))
 cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Awdsa", 7, "Science"))
+cursor.execute("INSERT INTO students (name, year_group, favourite_subject) VALUES (?, ?, ?)", ("Evelyn", 10, "Software Engineering"))
 
 connection.commit()
 connection.close()
