@@ -2,8 +2,8 @@
 
 ## Commit evidence (minimum 2)
 - Commit 1 hash + message: cb3714f - First set of work in Lesson 3. The base code outlined in `lesson-03-query-data-with-select.md`, fully functional.
-- Commit 2 hash + message: Built on top of the starter code, experimenting with my own tweaks and working through the 'stretch challenge'.
-- Optional Commit 3 hash + message:
+- Commit 2 hash + message: 7bc5d09 - Built on top of the starter code, experimenting with my own tweaks and working through the 'stretch challenge'.
+- Optional Commit 3 hash + message: Answered all questions to the best of my ability and marked off the quality checklist.
 
 ## Run evidence
 - Command run: `python SQLOnboarding-main/examples/lesson3_select.py`
