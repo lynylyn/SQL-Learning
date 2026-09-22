@@ -1,8 +1,8 @@
 # Lesson 03 Evidence Pro-Forma
 
 ## Commit evidence (minimum 2)
-- Commit 1 hash + message: First set of work in Lesson 3. The base code outlined in `lesson-03-query-data-with-select.md`, fully functional.
-- Commit 2 hash + message:
+- Commit 1 hash + message: cb3714f - First set of work in Lesson 3. The base code outlined in `lesson-03-query-data-with-select.md`, fully functional.
+- Commit 2 hash + message: Built on top of the starter code, experimenting with my own tweaks and working through the 'stretch challenge'.
 - Optional Commit 3 hash + message:
 
 ## Run evidence
@@ -40,13 +40,16 @@ Evelyn is in year 10, and their favourite subject is Software Engineering.
 
 ## Understanding check (answer in your own words)
 1. What is the job of `SELECT`?
+- 'SELECT' reads data from an SQL table.
 2. What type of value does `fetchall()` return?
+- 'fetchall()' returns string values from the table.
 3. How did your output change when you selected fewer columns?
+- Selecting fewer columns made the output smaller.
 
 ## Quality checklist
-- [ ] Script runs without unhandled errors
-- [ ] I included at least 2 lesson commits
-- [ ] I included query output evidence
-- [ ] I showed a prediction and compared it to actual output
-- [ ] I made at least 2 personal changes to the starter work
-- [ ] I answered all questions in my own words
+- [x] Script runs without unhandled errors
+- [x] I included at least 2 lesson commits
+- [x] I included query output evidence
+- [x] I showed a prediction and compared it to actual output
+- [x] I made at least 2 personal changes to the starter work
+- [x] I answered all questions in my own words
