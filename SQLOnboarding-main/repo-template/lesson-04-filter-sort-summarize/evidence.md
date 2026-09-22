@@ -1,30 +1,31 @@
 # Lesson 04 Evidence Pro-Forma
 
 ## Commit evidence (minimum 2)
-- Commit 1 hash + message:
-- Commit 2 hash + message:
+- Commit 1 hash + message: b8d98a5 - First set of work in Lesson 3. The base code outlined in `lesson-04-filter-sort-summarize.md`, slightly edited according to the activity, fully functional.
+- Commit 2 hash + message: Completed the stretch challenge and added my own additions to the code.
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run:
+- Command run: python SQLOnboarding-main/examples/lesson4_filter.py
 - Terminal output pasted below:
 
 ## Typed-work confirmation
 - Briefly describe how you typed your changes step-by-step (including at least one pause to run and check output):
+    - Changed `year_group = 10` to `year_group = 11`
 
 ## Prediction before run
-- Query version:
-- My prediction (filtered rows, order, or count):
-- What actually happened:
+- Query version: COUNT(*)
+- My prediction (filtered rows, order, or count): 4
+- What actually happened: 4
 
 ## SQL/Python changes I made
-- Change 1:
-- Change 2:
-- Why these changes were mine (not just starter code):
+- Change 1: Edited the code so the year group would be displayed before the name.
+- Change 2: Changed the formatting of the output to enhance readability.
+- Why these changes were mine (not just starter code): The output was not formatted at all in the code given.
 
 ## Error and fix
-- Error I hit:
-- How I fixed it:
+- Error I hit: The f string would not work.
+- How I fixed it: Changed `for row in rows` to `for year_group, name in rows`
 
 ## Understanding check (answer in your own words)
 1. What does `WHERE` do?
